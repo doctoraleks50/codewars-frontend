@@ -1,0 +1,8 @@
+version: '3.0'
+
+services:
+  frontend-test:
+    image: codewars-frontend-test
+    build:
+      context: .
+      dockerfile: Dockerfile
